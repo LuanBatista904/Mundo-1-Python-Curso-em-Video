@@ -7,3 +7,4 @@ print(len(nome))
 nome = nomei
 nome = nome.split()
 print(len(nome[0]))
+print('ok')

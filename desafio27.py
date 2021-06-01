@@ -1,2 +1,5 @@
-nome = input('Digite o seu nome completo: ')
+nome = input('Digite o seu nome completo: ').strip()
 nome.upper()
+nome = nome.split()
+print(nome[0])
+print(nome[len(nome)-1])
